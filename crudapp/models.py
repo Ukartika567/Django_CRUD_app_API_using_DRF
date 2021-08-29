@@ -6,5 +6,4 @@ class EmployeeDetails(models.Model):
     emp_email=models.EmailField(max_length=100)
     emp_password=models.CharField(max_length=100)
     
-    class Meta:
-        db_table='employeedetails'
+    
